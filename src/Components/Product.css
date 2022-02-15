@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+}
+.product{
+width: 100%;
+height: auto;
+
+}
+.industry{
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 2% auto;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+.slate{
+    display: flex;
+    width: 80%;
+    margin: 2% auto;
+    gap: 60px;
+    height: 300px;
+    
+}
+.slate1{
+    background-color: white;
+    width: 250px;
+    padding: 50px;
+    height: 330px;
+
+}
+img{
+    
+    width: 200px;
+    height: 200px;
+}
+
+.slate2{
+    background-color: white;
+    width: 250px;
+    height: 330px;
+    padding: 50px;
+}
+.slate3 {
+    background-color: white;
+    width: 250px;
+    height: 330px;
+    padding: 50px;
+}
+.Image img{
+    width:200px;
+    height: 38px;
+}
+.Weirdo img{
+    width:200px;
+    height: 38px;
+}

@@ -1,0 +1,190 @@
+body{
+    width: 100%;
+    height: 100%;
+
+}
+.text{
+    justify-content: center;
+    align-items: center;
+    /* margin: 2% auto; */
+    background-color: rgb(3, 15, 30);
+    height: 750px;
+    width: 1220px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.textImage{
+    display: flex;
+    color: white;
+    width: 1200px;
+    height: 400px;
+    /* background-color: hsl(200, 70, 4); */
+    /* background-color:hsl(200, 70, 13) ; */
+    /* background-color: rgb(3, 15, 30); */
+    padding: 30px;
+    gap: 30px;
+
+}
+
+.imageInfo{
+    flex-basis: 40%;
+    margin: 30px;
+    height: 130px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.Photo{
+    flex-basis: 60%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Photo p{
+    font-size: 60px;
+    font-weight: 500;
+
+}
+.Photo img{
+    object-fit: cover;
+    width: 490px;
+    margin: 30px;
+    padding: 20px;
+    
+}
+.appointment{
+display: flex;
+margin:  auto;
+/* margin-left: 230px; */
+gap: 20px;
+width: 600px;
+height: 480px;
+background-color: white;
+}
+.Form{
+    display: block;
+    padding: 20px;
+    flex-basis: 70%;
+    height: 480px;
+
+}
+.Form h2{
+    text-align: center;
+}
+.Form input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.FormButton{
+    width:300px ;
+    background-color: deepskyblue;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+.picture{
+    flex-basis: 20%;
+    
+}
+.picture img{
+    object-fit: fill;
+    height: 480px;
+}
+
+.extraBottom{
+    margin-top: 250px;
+    display: flex;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-between;
+
+}
+.Cont{
+    float: right;
+    background-color: deepskyblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+.Cont h3{
+    padding-left: 20px;
+    
+}
+.beforeBottom{
+    background-color: white;
+    width: 100%;
+}
+.Get{
+    padding: opx
+}
+.GetHead{
+    height: 20px;
+}
+.bottom{
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.callMain{
+    display: flex;
+    height: 35px;
+}
+.call img{
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+
+}
+.callText{
+    padding-bottom: 20;
+}
+.locationMain{
+    display: flex;
+    height: 35px;
+}
+.location img{
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+
+}
+.emailMain{
+    display: flex;
+    height: 35px;
+}
+.email img{
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+}
+.floatMain{
+    display: flex;
+    width: 1100px;
+    height: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.float{
+    
+    flex-basis: 80%;
+}
+.floatPhoto{
+    flex-basis: 10%;
+    display: flex;
+    gap: 20px;
+    float: left;
+
+}
+.floatPhoto img{
+    width: 30px;
+    height: 30px;
+    float: inline-end;
+}
